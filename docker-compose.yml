@@ -2,13 +2,13 @@ version: "3.3"
 services:
   angular-app:
     # This will automatically use the username from GitHub or your terminal
-    image: ${DOCKERHUB_USERNAME}/angular-app:latest
+    image: alaaaaa01/angular-app:latest
     ports:
       - "4200:80"      
   
   spring-boot-app:
     # Changed from spring-app to springboot-app to match your workflow
-    image: ${DOCKERHUB_USERNAME}/springboot-app:latest
+    image: alaaaaa01/springboot-app:latest
     ports:
       - "8081:8081"
     environment:
